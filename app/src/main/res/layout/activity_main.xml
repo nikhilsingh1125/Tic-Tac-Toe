@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/ttt"
+        android:columnCount="3"
+        android:rowCount="2">
+
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="20dp"
+            android:alpha="0"
+            android:onClick="click"
+            android:tag="0" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="30dp"
+            android:alpha="0"
+            android:onClick="click"
+            android:tag="0" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="30dp"
+            android:alpha="0"
+            android:onClick="click"
+            android:tag="0" />
+
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:alpha="0"
+            android:onClick="click"
+            android:tag="0" />
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:alpha="0"
+            android:onClick="click"
+            android:tag="0" />
+
+        <ImageView
+            android:id="@+id/img6"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:alpha="0"
+            android:onClick="click"
+            android:tag="0" />
+
+        <ImageView
+            android:id="@+id/img7"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:alpha="0"
+            android:onClick="click"
+            android:tag="0" />
+
+        <ImageView
+            android:id="@+id/img8"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:alpha="0"
+            android:onClick="click"
+            android:tag="0" />
+
+        <ImageView
+            android:id="@+id/img9"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:alpha="0"
+            android:onClick="click"
+            android:tag="0" />
+
+
+    </GridLayout>
+
+
+
+</RelativeLayout>
