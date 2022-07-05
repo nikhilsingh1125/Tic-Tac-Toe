@@ -94,6 +94,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
     public void newGame(String winner, boolean isDraw) {
 
         String toastMsg ="";
